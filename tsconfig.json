@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": true,
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "out"
+  },
+  "exclude": [
+    "source",
+    "node_modules",
+    "typings/globals",
+    "typings/modules",
+    "dist"
+  ],
+  "atom": {
+    "rewriteTsconfig": true,
+    "formatOnSave": true
+  },
+  "formatCodeOptions": {
+    "indentSize": 2,
+    "tabSize": 2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs"
+  },
+  "files": [
+    "../typings/index.d.ts",
+    "../dist/index.d.ts"
+  ]
+}
