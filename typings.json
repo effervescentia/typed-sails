@@ -1,6 +1,6 @@
 {
   "name": "sails",
-  "main": "dist/index.d.ts",
+  "main": "index.d.ts",
   "homepage": "https://github.com/balderdashy/sails",
   "version": "0.12.0",
   "devDependencies": {
