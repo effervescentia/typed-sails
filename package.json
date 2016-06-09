@@ -4,7 +4,7 @@
     "clean": "echo cleaning... && rm -rf dist/",
     "build": "echo building... && npm run clean && typings bundle -o dist/index.d.ts",
     "lint": "echo linting... && tslint \"**/*.ts\" -e \"source/**\" -e \"source-test/**\" -e \"dist/**\" -e \"node_modules/**\" -e \"typings/**\"",
-    "test": "echo testing... && cd test && ts-node ../node_modules/blue-tape/bin/blue-tape \"**/*.ts\" | tap-spec",
+    "test": "echo testing... && npm run build && cd test && ts-node ../node_modules/blue-tape/bin/blue-tape \"**/*.ts\" | tap-spec",
     "source-test": "echo source-testing... &&  echo source-test is not specified",
     "watch": "onchange \"**/*.ts\" -i -e \"dist/**\" -- npm -s run build+test",
     "publish": "npm -s run lint+build && echo please publish to typings/registry",
