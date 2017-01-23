@@ -1,5 +1,7 @@
 # Typed Sails
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/effervescentia/typed-sails.svg)](https://greenkeeper.io/)
+
 [![CircleCI branch](https://img.shields.io/circleci/project/effervescentia/typed-sails/master.svg?maxAge=2592000)]()
 
 The type definition for [`sails`](https://github.com/balderdashy/sails)
